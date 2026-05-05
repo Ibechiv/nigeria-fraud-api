@@ -1,0 +1,36 @@
+{
+  "weights": {
+    "xgboost": 0.5,
+    "isolation_forest": 0.15,
+    "lstm_autoencoder": 0.25,
+    "graph": 0.1
+  },
+  "risk_bands": {
+    "LOW": [
+      0.0,
+      0.3
+    ],
+    "MEDIUM": [
+      0.3,
+      0.6
+    ],
+    "HIGH": [
+      0.6,
+      0.8
+    ],
+    "CRITICAL": [
+      0.8,
+      1.0
+    ]
+  },
+  "optimal_threshold": 0.61,
+  "performance": {
+    "precision": 0.9816,
+    "recall": 0.9357,
+    "f1": 0.9581,
+    "roc_auc": 0.9991,
+    "pr_auc": 0.9745
+  },
+  "combined_detection_rate": "97.1%",
+  "ndpa_compliant": true
+}

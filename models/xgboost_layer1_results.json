@@ -1,0 +1,13 @@
+{
+  "model": "XGBoost Layer 1",
+  "threshold": 0.85,
+  "precision": 0.9756,
+  "recall": 0.9357,
+  "f1": 0.9552,
+  "roc_auc": 0.9995,
+  "pr_auc": 0.9784,
+  "best_iteration": 306,
+  "n_features": 22,
+  "baseline_f1": 0.0302,
+  "f1_improvement": 0.925
+}
