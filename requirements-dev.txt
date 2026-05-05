@@ -1,0 +1,29 @@
+# Development dependencies - includes Jupyter notebooks, etc.
+# For local development only, NOT for Render deployment
+# Production dependencies
+-r requirements.txt
+# Jupyter & Notebooks
+jupyter==1.0.0
+jupyterlab==4.5.6
+ipython==9.13.0
+ipykernel==7.2.0
+notebook==7.3.1
+# Interactive development
+ipython_pygments_lexers==1.1.1
+# Pandas stubs for type checking
+pandas-stubs==2.2.3.250527
+# Code analysis
+jedi==0.19.2
+# Debugging
+debugpy==1.8.20
+# JSON processing
+jsonpointer==3.1.1
+# Testing utilities
+psutil==7.2.2
+# Display utilities
+matplotlib-inline==0.2.1
+Pygments==2.20.0
+# Other dev tools
+python-dotenv==1.2.2
+prompt_toolkit==3.0.52
+platformdirs==4.9.6
