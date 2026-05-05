@@ -4,9 +4,8 @@ services:
     env: python
     plan: free
     branch: main
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "uvicorn api.main:app --host 0.0.0.0 --port $PORT"
+    buildCommand: "pip install -r requirements-prod.txt"
+    startCommand: "uvicorn api.main:app --host 0.0.0.0 --port $PORT --workers 4"
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
-
